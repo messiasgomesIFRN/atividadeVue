@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(105, 105, 233);
+}
+
+#calc {
+    background-color: rgb(82, 82, 94);
+    margin-top: 5%;
+    width: 25%;
+    height: 40vh;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px;
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    z-index: -1;
+}
+
+input {
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+label {
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+figure {
+    align-items: center;
+}

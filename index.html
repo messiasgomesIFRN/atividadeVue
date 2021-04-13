@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br>">
+<head>
+    <meta charset=" UTF-8 ">
+    <meta http-equiv="X-UA-Compatible " content="IE=edge ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet" href="./styles.css">
+    <title>IMC</title>
+</head>
+<body>
+
+    <div id="calc">
+        <br>
+        <label>{{message}}</label>
+        <br>
+        <br>
+        <input type="text" placeholder="Altura" v-model="altura"></input>
+        <br>
+        <input type="text" placeholder="peso" v-model="peso"></input>
+        <br>
+        <label v-onclick="calcImc()" for="User"> IMC :  {{imc}}</label>
+        <br>
+        <figure>
+            <img src="./img/tabela_imc.png" width="390px" height="200px" align-items="center" alt="">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+    <br>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
